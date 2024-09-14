@@ -10,7 +10,7 @@ import java.io.Serializable;
 public class Course implements Serializable {
 
   /**
-   * Constructs a new Course object with the given parameters. Initial count starts at 0.
+   * Constructs a new Course object with the given parameters. Initial count starts at 500.
    *
    * @param instructorName The name of the instructor teaching the course.
    * @param courseLocation The location where the course is held.

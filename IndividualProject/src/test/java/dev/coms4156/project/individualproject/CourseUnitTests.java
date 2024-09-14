@@ -19,6 +19,7 @@ public class CourseUnitTests {
   /**
    * Sets up the test course instance before all tests are run.
    */
+
   @BeforeEach
   public void setupCourseForTesting() {
     testCourse = new Course("Griffin Newbold", "417 IAB", "11:40-12:55", 250);
@@ -32,6 +33,7 @@ public class CourseUnitTests {
     String expectedResult = "\nInstructor: Griffin Newbold; Location: 417 IAB; Time: 11:40-12:55";
     assertEquals(expectedResult, testCourse.toString());
   }
+
 
   @Test
   public void enrollStudentTest() {
