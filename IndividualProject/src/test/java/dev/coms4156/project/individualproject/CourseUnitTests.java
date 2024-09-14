@@ -34,7 +34,6 @@ public class CourseUnitTests {
     assertEquals(expectedResult, testCourse.toString());
   }
 
-
   @Test
   public void enrollStudentTest() {
     for (int i = 0; i < 5; i++) {
